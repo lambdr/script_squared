@@ -1,0 +1,15 @@
+name: "Site YAML page"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - icon: fa-github fa-lg
+      href: http://github.com/lambdr/script_squared/
+output:
+  html_document:
+    include: 
+      in_header: header.html
+      after_body: footer.html
+    theme: flatly
