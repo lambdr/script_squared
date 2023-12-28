@@ -2,10 +2,11 @@
 title: "Script Squared"
 output: html_document
 ---
-This is a website.
 <!-- this is an HTML comment -->
 <!-- anything in this comment will be ignored -->
 
+<!-- R Markdown allows you to type in plain text -->
+This is a website.
 
 <!-- this is a code chunk that runs R -->
 ```{r example, include = FALSE}
